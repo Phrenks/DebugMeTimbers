@@ -1,6 +1,3 @@
-IN DEVELOPMENT
---------------
-
 DebugMeTimbers is a debugging library for C++. Later on it might be available 
 for:
 - PHP
@@ -51,9 +48,11 @@ set to "true". Change it to false and neither will be executed.
 FAQs
 ----
 
-*Can the second parameter of the "debug" function be **anything**?*
+*Can the second parameter of the "debug" function be ANYTHING?*
 
 Pretty much! As long as it's a valid one line instruction it'll do the job.
+It doesn't necessarily have to be a function call, look at the cout that I'm 
+using up there. Works like a charm (as long as its group name is set to true).
 
 *Why is it called Debug Me Timbers?*
 
